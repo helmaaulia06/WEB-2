@@ -1,0 +1,33 @@
+1. Dokumen root adalah file utama atau direktori pertama dalam sebuah sistem atau situs web yang berisi file-file penting dan menjadi titik awal akses. Di situs web, ini biasanya adalah halaman utama yang pertama kali diakses.
+
+
+2. Dokumen root pada Apche web server yang diinstal melalui XAMPP secara default terletak di c:\xampp\htdocs. Namun, anda dapat mengubah lokasi document root ini sesuai kebutuhan dengan mengonfigurasi file pengaturan Apache
+
+
+3. -git init
+Perintah ini digunakan untuk membuat repository Git baru di direktori yang ada. Setelah menjalankan git init, direktori tersebut akan menjadi repository Git yang dapat digunakan untuk melacak perubahan pada file dan versi proyek.
+-git clone
+Perintah ini digunakan untuk membuat salinan lokal dari repository yang ada di server atau repositori jarak jauh. Biasanya digunakan untuk mengunduh seluruh proyek dari GitHub, GitLab, atau repository lainnya.
+-git remote
+Perintah ini digunakan untuk mengelola repositori jarak jauh (remote repository). Dengan git remote, Anda dapat menambah, menghapus, atau memodifikasi remote yang terhubung dengan repository lokal.
+-git add
+Perintah ini digunakan untuk menambahkan perubahan (file baru, perubahan di file yang sudah ada) ke staging area sebelum melakukan commit. Artinya, file yang telah di-add akan siap untuk di-commit.
+-git commit
+Perintah ini digunakan untuk menyimpan perubahan yang telah ditambahkan ke staging area ke dalam repository lokal dengan pesan yang menggambarkan perubahan yang dilakukan.
+-git push
+Perintah ini digunakan untuk mengirimkan (push) perubahan yang telah di-commit ke repository remote, seperti GitHub atau GitLab. Ini akan memperbarui repository remote dengan commit terbaru dari lokal.
+-git checkout
+Perintah ini digunakan untuk berpindah antar branch atau mengembalikan file ke keadaan sebelumnya. git checkout bisa digunakan untuk mengganti branch aktif atau untuk mengembalikan file ke versi tertentu.
+
+4. -GitHub lebih fokus pada pengelolaan kode sumber dan kolaborasi proyek open-source dengan komunitas besar, serta memiliki fitur GitHub Actions untuk CI/CD. GitHub lebih sederhana dan lebih populer untuk proyek publik.
+ -GitLab menawarkan solusi DevOps yang lebih lengkap, termasuk CI/CD terintegrasi dan kontrol lebih besar dalam pengelolaan proyek. GitLab juga bisa di-host sendiri di server pribadi, memberi fleksibilitas lebih untuk perusahaan.
+
+
+5 Variable User: Variabel yang diatur oleh pengguna dan hanya berlaku untuk akun pengguna tersebut. Pengaturan ini mempengaruhi aplikasi dan proses yang dijalankan oleh pengguna tertentu saja.
+
+Variable System: Variabel yang diatur oleh sistem atau administrator dan berlaku untuk seluruh pengguna di komputer. Pengaturan ini memengaruhi semua aplikasi dan proses di sistem, tanpa memandang siapa yang menjalankannya.
+
+
+6.Persamaannya:
+ - Keduanya memiliki nilai tetap yang tidak berubah selama penggunaan (di sistem untuk variable system dan dalam program untuk variable constant).
+ - Tidak bisa diubah (untuk variable system, pengubahannya memerlukan hak administrator, sementara untuk variable constant dalam program, nilai hanya bisa ditetapkan sekali).
